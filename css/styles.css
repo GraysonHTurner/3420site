@@ -1,0 +1,3 @@
+/* Small additions to Bootstrap's official Album layout. */
+.album-image { height:300px; object-fit:contain; background:#e8ebdf; }
+.card-text { line-height:1.6; }

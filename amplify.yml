@@ -1,0 +1,15 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands:
+        - echo "Static Bootstrap website - no compilation required"
+  artifacts:
+    baseDirectory: .
+    files:
+      - index.html
+      - css/**/*
+      - js/**/*
+      - images/**/*
+  cache:
+    paths: []
